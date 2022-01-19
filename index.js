@@ -22,12 +22,14 @@ function resultadoImc(){
     var h3IMC = document.createElement("h2")
     var info = document.createElement("p")
     var imagem = document.createElement("div")
-
+    /*
     h3IMC.style.fontWeight = "500"
     h3IMC.style.textAlign = "center"
     h3IMC.style.margin = "30px"
+    */
     h3IMC.textContent = "IMC: " + resultadoImc
 
+    /*
     info.style.lineHeight = "30px"
     info.style.textAlign = "center"
     info.style.fontSize = "24px"
@@ -39,7 +41,7 @@ function resultadoImc(){
     imagem.style.marginLeft = "570px"
     imagem.style.width = "150px"
     imagem.style.height = "230px"
-    
+    */
 
     //HOMEM ABAIXO DO PESO
     if((sexoM.checked == true) && 
