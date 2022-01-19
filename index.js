@@ -9,6 +9,10 @@
     }
 }
 
+function voltar(){
+    document.location.reload(true);
+}
+
 function resultadoImc(){
     selecionado()
 
@@ -50,6 +54,7 @@ function resultadoImc(){
     (peso <= 200 && peso >= 20) && 
     (altura < 2.20 && altura >= 1.40)){
         document.getElementById("formulario").style.display = "none"
+        document.getElementById("voltar").style.display = "block"
         h3IMC.style.color = "#f00"
 
         info.innerHTML = "Você está abaixo do peso. <br>"
@@ -59,8 +64,8 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
-        imagem.style.height = "200px"
-        imagem.style.backgroundImage = "url('./images/abaixoMas.jpg')"
+        imagem.style.height = "200px;"
+        imagem.style.backgroundImage = "url('images/abaixoMas.jpg')"
         imagem.style.backgroundSize = "cover"
 
         resultado.appendChild(h3IMC)
@@ -75,6 +80,7 @@ function resultadoImc(){
     (peso <= 200 && peso >= 20) && 
     (altura < 2.20 && altura >= 1.40)){
         document.getElementById("formulario").style.display = "none"
+        document.getElementById("voltar").style.display = "block"
         h3IMC.style.color = "#f00"
 
         info.innerHTML = "Você está abaixo do peso. <br>"
@@ -84,7 +90,7 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
-        imagem.style.backgroundImage = "url('./images/abaixoFem.jpg')"
+        imagem.style.backgroundImage = "url('images/abaixoFem.jpg')"
         imagem.style.backgroundSize = "cover"
 
         resultado.appendChild(h3IMC)
@@ -99,6 +105,7 @@ function resultadoImc(){
     (peso <= 200 && peso >= 20) && 
     (altura < 2.20 && altura >= 1.40)){
         document.getElementById("formulario").style.display = "none"
+        document.getElementById("voltar").style.display = "block"
         h3IMC.style.color = "#00f"
 
         info.innerHTML = "Você está no peso ideal. <br>"
@@ -108,7 +115,7 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Continue se cuidando. Parabéns ^^" 
 
-        imagem.style.backgroundImage = "url('./images/normalMas.jpg')"
+        imagem.style.backgroundImage = "url('images/normalMas.jpg')"
         imagem.style.backgroundSize = "cover"
 
         resultado.appendChild(h3IMC)
@@ -123,6 +130,7 @@ function resultadoImc(){
     (peso <= 200 && peso >= 20) && 
     (altura < 2.20 && altura >= 1.40)){
         document.getElementById("formulario").style.display = "none"
+        document.getElementById("voltar").style.display = "block"
         h3IMC.style.color = "#00f"
 
         info.innerHTML = "Você está no peso ideal. <br>"
@@ -132,7 +140,7 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Continue se cuidando. Parabéns ^^" 
 
-        imagem.style.backgroundImage = "url('./images/normalFem.jpg')"
+        imagem.style.backgroundImage = "url('images/normalFem.jpg')"
         imagem.style.backgroundSize = "cover"
 
         resultado.appendChild(h3IMC)
@@ -147,6 +155,7 @@ function resultadoImc(){
     (peso <= 200 && peso >= 20) && 
     (altura < 2.20 && altura >= 1.40)){
         document.getElementById("formulario").style.display = "none"
+        document.getElementById("voltar").style.display = "block"
         h3IMC.style.color = "#f0d"
 
         info.innerHTML = "Você está acima do peso. <br>"
@@ -156,7 +165,7 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
-        imagem.style.backgroundImage = "url('./images/acimaMas.jpg')"
+        imagem.style.backgroundImage = "url('images/acimaMas.jpg')"
         imagem.style.backgroundSize = "cover"
 
         resultado.appendChild(h3IMC)
@@ -171,6 +180,7 @@ function resultadoImc(){
     (peso <= 200 && peso >= 20) && 
     (altura < 2.20 && altura >= 1.40)){
         document.getElementById("formulario").style.display = "none"
+        document.getElementById("voltar").style.display = "block"
         h3IMC.style.color = "#f0d"
 
         info.innerHTML = "Você está acima do peso. <br>"
@@ -180,7 +190,7 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
-        imagem.style.backgroundImage = "url('./images/acimaFem.jpg')"
+        imagem.style.backgroundImage = "url('images/acimaFem.jpg')"
         imagem.style.backgroundSize = "cover"
 
         resultado.appendChild(h3IMC)
@@ -195,6 +205,7 @@ function resultadoImc(){
     (peso <= 200 && peso >= 20) && 
     (altura < 2.20 && altura >= 1.40)){
         document.getElementById("formulario").style.display = "none"
+        document.getElementById("voltar").style.display = "block"
         h3IMC.style.color = "#f00"
 
         info.innerHTML = "Você está obeso. <br>"
@@ -204,9 +215,9 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
-        imagem.style.marginLeft = "520px"
+        imagem.style.marginLeft = "auto"
         imagem.style.width = "200px"
-        imagem.style.backgroundImage = "url('./images/obesoMas.jpg')"
+        imagem.style.backgroundImage = "url('images/obesoMas.jpg')"
         imagem.style.backgroundSize = "cover"
 
         resultado.appendChild(h3IMC)
@@ -221,6 +232,7 @@ function resultadoImc(){
     (peso <= 200 && peso >= 20) && 
     (altura < 2.20 && altura >= 1.40)){
         document.getElementById("formulario").style.display = "none"
+        document.getElementById("voltar").style.display = "block"
         h3IMC.style.color = "#f00"
 
         info.innerHTML = "Você está obesa. <br>"
@@ -230,16 +242,17 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
-        imagem.style.marginLeft = "520px"
-        imagem.style.width = "200px"
-        imagem.style.backgroundImage = "url('./images/obesoFem.jpg')"
+        imagem.style.marginLeft = "auto;"
+        imagem.style.width = "200px;"
+        imagem.style.backgroundImage = "url('images/obesoFem.jpg')"
         imagem.style.backgroundSize = "cover"
 
         resultado.appendChild(h3IMC)
         resultado.appendChild(info)
         resultado.appendChild(imagem)
-    }    
-}
+    } 
+
+}   
 
 document.getElementById("calcular").addEventListener("click", resultadoImc)      
 
