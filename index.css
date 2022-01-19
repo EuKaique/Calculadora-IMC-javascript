@@ -333,7 +333,7 @@ button:hover{
         background-color: aquamarine;
         border-radius: 5px;
         box-shadow: 0 0 0.5rem #000;
-        width: 360px ;
+        width: 380px ;
         height: 400px;
         margin-top: 6% ;
         margin-left: auto ;
@@ -360,9 +360,9 @@ button:hover{
         text-align: center;
         font-size: 22px ;
         margin-left: 5% ;
-        margin-right: 20% ;
+        margin-right: 10% ;
         margin-top: 50px;
-        width: 80% ;
+        width: 90% ;
     }
     #resultado h2 {
         font-weight: 500;
@@ -378,7 +378,7 @@ button:hover{
         background-color: aquamarine;
         border-radius: 5px;
         box-shadow: 0 0 0.5rem #000;
-        width: 340px ;
+        width: 360px ;
         height: 400px;
         margin-top: 6% ;
         margin-left: auto ;
@@ -406,9 +406,9 @@ button:hover{
         text-align: center;
         font-size: 21px ;
         margin-left: 3% ;
-        margin-right: 20% ;
+        margin-right: 10% ;
         margin-top: 50px;
-        width: 80% ;
+        width: 90% ;
     }
 }
 
@@ -434,7 +434,7 @@ button:hover{
         background-color: aquamarine;
         border-radius: 5px;
         box-shadow: 0 0 0.5rem #000;
-        width: 300px ;
+        width: 340px ;
         height: 400px;
         margin-top: 6%;
         margin-left: auto ;
@@ -458,9 +458,9 @@ button:hover{
         text-align: center;
         font-size: 20px ;
         margin-left: 2% ;
-        margin-right: 22% ;
+        margin-right: 12% ;
         margin-top: 50px;
-        width: 83% ;
+        width: 90% ;
     }
 
 }
