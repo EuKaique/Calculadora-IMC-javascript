@@ -264,66 +264,66 @@ button:hover{
     h1 {
         text-align: center;
         position: relative;
-        left: auto;
-        right: 12%;
-        font-size: 16px;
-        margin-left: auto;
-        margin-right: auto;
+        left: auto !important;
+        right: 12% !important;
+        font-size: 16px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
         margin-top: 15px;
     }
     img {
         position: absolute;
-        left: 60%;
-        top: 8px;
-        width: 32px;
+        left: 60% !important;
+        top: 8px !important;
+        width: 32px !important;
     }
     #formulario {
         display: block;
         background-color: aquamarine;
         border-radius: 5px;
         box-shadow: 0 0 0.5rem #000;
-        width: 280px;
+        width: 280px !important;
         height: 400px;
-        margin-top: 6%;
-        margin-left: auto;
-        margin-right: 28%;
+        margin-top: 6% !important;
+        margin-left: auto !important;
+        margin-right: 28% !important;
     }
     input {
-        width: 60%;
-        margin-left: 50px;
-        margin-top: 10px;
+        width: 60% !important;
+        margin-left: 50px !important;
+        margin-top: 10px !important;
         border: none;
         border-radius: 5px;
-        padding: 10px 5px;
-        font-size: 18px;
+        padding: 10px 5px !important;
+        font-size: 18px !important;
     }
     input:nth-child(8) {
         width: 8%;
-        margin-left: 42px;
+        margin-left: 42px !important;
         display: inline-block;
         cursor: pointer;
         color: #000;
     }
     button {
-        width: 60%;
+        width: 60% !important;
         background-color: #000;
         color: #fff;
-        margin-left: 20%;
-        margin-top: 10px;
+        margin-left: 20% !important;
+        margin-top: 10px !important;
         border: none;
         border-radius: 5px;
-        padding: 8px 8px;
-        font-size: 18px;
+        padding: 8px 8px !important;
+        font-size: 18px !important;
         cursor: pointer;
     }
     #resultado p{
         line-height: 30px;
         text-align: center;
-        font-size: 22px;
+        font-size: 22px !important;
         margin-left: auto;
-        margin-right: 16%;
+        margin-right: 16% !important;
         margin-top: 50px;
-        width: 70%;
+        width: 70% !important;
     }
 }
 
@@ -333,42 +333,42 @@ button:hover{
         background-color: aquamarine;
         border-radius: 5px;
         box-shadow: 0 0 0.5rem #000;
-        width: 260px;
+        width: 260px !important;
         height: 400px;
-        margin-top: 6%;
-        margin-left: auto;
-        margin-right: 32%;
+        margin-top: 6% !important;
+        margin-left: auto !important;
+        margin-right: 32% !important;
     }
     h1 {
         text-align: center;
         position: relative;
-        left: auto;
-        right: 15%;
-        font-size: 16px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 15px;
+        left: auto !important;
+        right: 15% !important;
+        font-size: 16px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 15px !important;
     }
     img {
         position: absolute;
-        left: 58%;
+        left: 58% !important;
         top: 8px;
-        width: 32px;
+        width: 32px !important;
     }
     #resultado p {
         line-height: 30px;
         text-align: center;
-        font-size: 22px;
-        margin-left: 5%;
-        margin-right: 20%;
+        font-size: 22px !important;
+        margin-left: 5% !important;
+        margin-right: 20% !important;
         margin-top: 50px;
-        width: 80%;
+        width: 80% !important;
     }
     #resultado h2 {
         font-weight: 500;
         text-align: center;
         margin: 30px;
-        margin-right: 20%;
+        margin-right: 20% !important;
     }
 }
 
@@ -378,25 +378,25 @@ button:hover{
         background-color: aquamarine;
         border-radius: 5px;
         box-shadow: 0 0 0.5rem #000;
-        width: 240px;
+        width: 240px !important;
         height: 400px;
-        margin-top: 6%;
-        margin-left: auto;
-        margin-right: 33%;
+        margin-top: 6% !important;
+        margin-left: auto !important;
+        margin-right: 33% !important;
     }
     input {
-        width: 80%;
-        margin-left: 10%;
+        width: 80% !important;
+        margin-left: 10% !important;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 10px !important;
         border: none;
         border-radius: 5px;
-        padding: 10px 0px;
-        font-size: 16px;
+        padding: 10px 0px !important;
+        font-size: 16px !important;
     }
     input:nth-child(8) {
         width: 8%;
-        margin-left: 28px;
+        margin-left: 28px !important;
         display: inline-block;
         cursor: pointer;
         color: #000;
@@ -404,11 +404,11 @@ button:hover{
     #resultado p {
         line-height: 30px;
         text-align: center;
-        font-size: 21px;
-        margin-left: 3%;
-        margin-right: 20%;
+        font-size: 21px !important;
+        margin-left: 3% !important;
+        margin-right: 20% !important;
         margin-top: 50px;
-        width: 80%;
+        width: 80% !important;
     }
 }
 
@@ -416,33 +416,33 @@ button:hover{
     h1 {
         text-align: center;
         position: relative;
-        left: auto;
-        right: 16%;
+        left: auto !important;
+        right: 16% !important;
         font-size: 14px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 18px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 18px !important;
     }
     img {
         position: absolute;
-        left: 58%;
-        top: 12px;
-        width: 28px;
+        left: 58% !important;
+        top: 12px !important;
+        width: 28px !important;
     }
     #formulario {
         display: block;
         background-color: aquamarine;
         border-radius: 5px;
         box-shadow: 0 0 0.5rem #000;
-        width: 230px;
+        width: 230px !important;
         height: 400px;
         margin-top: 6%;
-        margin-left: auto;
-        margin-right: 32.5%;
+        margin-left: auto !important;
+        margin-right: 32.5% !important;
     }
     input:nth-child(8) {
         width: 8%;
-        margin-left: 22px;
+        margin-left: 22px !important;
         display: inline-block;
         cursor: pointer;
         color: #000;
@@ -451,16 +451,16 @@ button:hover{
         font-weight: 500;
         text-align: center;
         margin: 30px;
-        margin-right: 25%;
+        margin-right: 25% !important;
     }
     #resultado p {
         line-height: 30px;
         text-align: center;
-        font-size: 20px;
-        margin-left: 2%;
-        margin-right: 22%;
+        font-size: 20px !important;
+        margin-left: 2% !important;
+        margin-right: 22% !important;
         margin-top: 50px;
-        width: 83%;
+        width: 83% !important;
     }
 
 }
