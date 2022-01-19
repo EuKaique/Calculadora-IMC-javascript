@@ -232,3 +232,97 @@ button:hover{
         width: 55%;
     }
 }
+@media screen and (max-width: 460px){
+    img {
+        position: absolute;
+        left: 60%;
+        top: 8px;
+        width: 32px;
+    }
+    #formulario {
+        display: block;
+        background-color: aquamarine;
+        border-radius: 5px;
+        box-shadow: 0 0 0.5rem #000;
+        width: 300px;
+        height: 400px;
+        margin-top: 6%;
+        margin-left: auto;
+        margin-right: 29%;
+    }
+    #resultado p{
+        line-height: 30px;
+        text-align: center;
+        font-size: 22px;
+        margin-left: auto;
+        margin-right: 16%;
+        margin-top: 50px;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 420px){
+    h1 {
+        text-align: center;
+        position: relative;
+        left: auto;
+        right: 12%;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+    img {
+        position: absolute;
+        left: 60%;
+        top: 8px;
+        width: 32px;
+    }
+    #formulario {
+        display: block;
+        background-color: aquamarine;
+        border-radius: 5px;
+        box-shadow: 0 0 0.5rem #000;
+        width: 280px;
+        height: 400px;
+        margin-top: 6%;
+        margin-left: auto;
+        margin-right: 28%;
+    }
+    input {
+        width: 60%;
+        margin-left: 50px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 5px;
+        font-size: 18px;
+    }
+    input:nth-child(8) {
+        width: 8%;
+        margin-left: 42px;
+        display: inline-block;
+        cursor: pointer;
+        color: #000;
+    }
+    button {
+        width: 60%;
+        background-color: #000;
+        color: #fff;
+        margin-left: 20%;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 8px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    #resultado p{
+        line-height: 30px;
+        text-align: center;
+        font-size: 22px;
+        margin-left: auto;
+        margin-right: 16%;
+        margin-top: 50px;
+        width: 70%;
+    }
+}
