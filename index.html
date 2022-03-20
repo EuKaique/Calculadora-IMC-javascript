@@ -13,22 +13,36 @@
     
 </head>
 <body>
-    <h1>Calculadora IMC Javascript</h1><img src="./images/calculadora.png" alt="logo" />
-    <div id="formulario">
-        <label for="">Idade</label>
-        <input name="idade" id="idade" placeholder="Exemplo: 25" required> 
-        <label for="">Peso</label>
-        <input name="peso" id="peso" placeholder="Exemplo: 80" required>
-        <label for="">Altura</label>
-        <input name="altura" id="altura" placeholder="Exemplo: 1.75" required>
-        <label for="">Sexo</label> 
-        <input type="radio" value="Masculino" id="sexoM" onclick="selecionado()">Masculino  
-        <input type="radio" value="Feminino" id="sexoF" onclick="selecionado()">Feminino
-        <button id="calcular">Calcular</button>
+    <div class="cabecalho">
+        <h1>Calculadora IMC Javascript</h1>
+        <img src="./images/calculadora.png" alt="logo" />
     </div>
-    <button id="voltar" onclick="voltar()">Voltar</button>
-    <div id="resultado"></div>
-
+    <div class="conteudo">
+        <div id="formulario">
+            <div class="conteudo-form">
+                <label for="">Idade</label>
+                <input name="idade" id="idade" class="input-form" placeholder="Exemplo: 25" required> 
+                <label for="">Peso</label>
+                <input name="peso" id="peso" class="input-form" placeholder="Exemplo: 80" required>
+                <label for="">Altura</label>
+                <input name="altura" id="altura" class="input-form" placeholder="Exemplo: 1.75" required>
+                <label for="">Sexo</label>
+            </div>
+            <div class="form-sexo">
+                <input type="radio" value="Masculino" id="sexoM" onclick="selecionado()">Masculino  
+                <input type="radio" value="Feminino" id="sexoF" onclick="selecionado()">Feminino
+            </div>     
+            <div class="button">
+                <button id="calcular">Calcular</button>
+            </div>
+        </div>
+    </div>
+    <div class="resultado">
+        <div id="resultado"></div>
+    </div>
+    <div class="voltar">
+        <button id="voltar">Voltar</button>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

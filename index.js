@@ -9,10 +9,6 @@
     }
 }
 
-function voltar(){
-    document.location.reload(true);
-}
-
 function resultadoImc(){
     selecionado()
 
@@ -25,27 +21,16 @@ function resultadoImc(){
 
     var h3IMC = document.createElement("h2")
     var info = document.createElement("p")
-    var imagem = document.createElement("div")
-    /*
-    h3IMC.style.fontWeight = "500"
-    h3IMC.style.textAlign = "center"
-    h3IMC.style.margin = "30px"
-    */
+    var divImagem = document.createElement("div")
+    divImagem.classList.add("res-imagem")
+    var imagem = document.createElement("img")
+    var voltar = document.getElementById("voltar")
+
+    voltar.addEventListener('click', ()=>{
+        document.location.reload(true);
+    })
+
     h3IMC.textContent = "IMC: " + resultadoImc
-
-    /*
-    info.style.lineHeight = "30px"
-    info.style.textAlign = "center"
-    info.style.fontSize = "24px"
-    info.style.marginLeft = "100px"
-    info.style.marginRight = "100px"
-    info.style.marginTop = "50px"
-
-    imagem.style.marginTop = "30px"
-    imagem.style.marginLeft = "570px"
-    imagem.style.width = "150px"
-    imagem.style.height = "230px"
-    */
 
     //HOMEM ABAIXO DO PESO
     if((sexoM.checked == true) && 
@@ -65,12 +50,13 @@ function resultadoImc(){
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
         imagem.style.height = "200px;"
-        imagem.style.backgroundImage = "url('images/abaixoMas.jpg')"
-        imagem.style.backgroundSize = "cover"
+        imagem.src = 'images/abaixoMas.jpg'
 
         resultado.appendChild(h3IMC)
         resultado.appendChild(info)
-        resultado.appendChild(imagem)
+        divImagem.appendChild(imagem)//Coloca a imagem dentro da div
+        resultado.appendChild(divImagem)
+        voltar.style.display = "block";
     }
 
     //MULHER ABAIXO DO PESO
@@ -90,12 +76,13 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
-        imagem.style.backgroundImage = "url('images/abaixoFem.jpg')"
-        imagem.style.backgroundSize = "cover"
+        imagem.src = 'images/abaixoFem.jpg'
 
         resultado.appendChild(h3IMC)
         resultado.appendChild(info)
-        resultado.appendChild(imagem)
+        divImagem.appendChild(imagem)//Coloca a imagem dentro da div
+        resultado.appendChild(divImagem)
+        voltar.style.display = "block";
     }
 
     //HOMEM COM PESO NORMAL
@@ -115,12 +102,13 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Continue se cuidando. Parabéns ^^" 
 
-        imagem.style.backgroundImage = "url('images/normalMas.jpg')"
-        imagem.style.backgroundSize = "cover"
+        imagem.src = 'images/normalMas.jpg'
 
         resultado.appendChild(h3IMC)
         resultado.appendChild(info)
-        resultado.appendChild(imagem)
+        divImagem.appendChild(imagem)//Coloca a imagem dentro da div
+        resultado.appendChild(divImagem)
+        voltar.style.display = "block";
     }
 
     //MULHER COM PESO NORMAL
@@ -140,12 +128,13 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Continue se cuidando. Parabéns ^^" 
 
-        imagem.style.backgroundImage = "url('images/normalFem.jpg')"
-        imagem.style.backgroundSize = "cover"
+        imagem.src = 'images/normalFem.jpg'
 
         resultado.appendChild(h3IMC)
         resultado.appendChild(info)
-        resultado.appendChild(imagem)
+        divImagem.appendChild(imagem)//Coloca a imagem dentro da div
+        resultado.appendChild(divImagem)
+        voltar.style.display = "block";
     }
 
     //HOMEM ACIMA DO PESO
@@ -165,12 +154,14 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
-        imagem.style.backgroundImage = "url('images/acimaMas.jpg')"
-        imagem.style.backgroundSize = "cover"
+        imagem.src = 'images/acimaMas.jpg'
 
         resultado.appendChild(h3IMC)
         resultado.appendChild(info)
-        resultado.appendChild(imagem)
+        divImagem.appendChild(imagem)//Coloca a imagem dentro da div
+        resultado.appendChild(divImagem)
+        voltar.style.display = "block";
+
     }
  
     //MULHER ACIMA DO PESO
@@ -190,12 +181,13 @@ function resultadoImc(){
         + altura + "cm</b>"
         info.innerHTML += "<br>Pratique exercícios, alimente-se e durma bem pra ter uma vida saudável" 
 
-        imagem.style.backgroundImage = "url('images/acimaFem.jpg')"
-        imagem.style.backgroundSize = "cover"
+        imagem.src = 'images/acimaFem.jpg'
 
         resultado.appendChild(h3IMC)
         resultado.appendChild(info)
-        resultado.appendChild(imagem)
+        divImagem.appendChild(imagem)//Coloca a imagem dentro da div
+        resultado.appendChild(divImagem)
+        voltar.style.display = "block";
     }
 
     //HOMEM OBESO
@@ -217,12 +209,13 @@ function resultadoImc(){
 
         imagem.style.marginLeft = "auto"
         imagem.style.width = "200px"
-        imagem.style.backgroundImage = "url('images/obesoMas.jpg')"
-        imagem.style.backgroundSize = "cover"
+        imagem.src = 'images/obesoMas.jpg'
 
         resultado.appendChild(h3IMC)
         resultado.appendChild(info)
-        resultado.appendChild(imagem)
+        divImagem.appendChild(imagem)//Coloca a imagem dentro da div
+        resultado.appendChild(divImagem)
+        voltar.style.display = "block";
     }
  
     //MULHER OBESA
@@ -244,12 +237,13 @@ function resultadoImc(){
 
         imagem.style.marginLeft = "auto;"
         imagem.style.width = "200px;"
-        imagem.style.backgroundImage = "url('images/obesoFem.jpg')"
-        imagem.style.backgroundSize = "cover"
+        imagem.src = 'images/obesoFem.jpg'
 
         resultado.appendChild(h3IMC)
         resultado.appendChild(info)
-        resultado.appendChild(imagem)
+        divImagem.appendChild(imagem)//Coloca a imagem dentro da div
+        resultado.appendChild(divImagem)
+        voltar.style.display = "block";
     } 
 
 }   
